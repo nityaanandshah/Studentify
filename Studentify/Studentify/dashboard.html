@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dash.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <i class="fa-thin fa-graduation-cap"></i>
+      <span class="logo_name">Dashboard</span>
+    </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#" class="active">
+            <i class='bx bx-grid-alt' ></i>
+            <span class="links_name" onClick="location.href='dashboard.html'">Home</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-box' ></i>
+            <span class="links_name" onClick="location.href='personal_page.html'">Personal Details</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name" onClick="location.href='academic_page.html'">Academic Info</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class='bx bx-list-ul' ></i>
+            <span class="links_name" onClick="location.href='courses_registered.html'">Courses Registered</span>
+          </a>
+        </li>
+        <li class="log_out">
+          <a href="#">
+            <i class='bx bx-log-out'></i>
+            <span class="links_name" onClick="location.href='login.html'">Log out</span>
+          </a>
+        </li>
+      </ul>
+  </div>
+  <section class="home-section">
+    <nav>
+      <div class="sidebar-button">
+        <i class='bx bx-menu sidebarBtn'></i>
+        <span class="dashboard">Studentify</span>
+      </div>
+    </nav>
+
+    <div class="home-content">
+      <div class="sales-boxes">
+        <div class="recent-sales1 box">
+          <div class="performance">Performance</div>
+          <img class="student-image" src="bar-graph.png" >
+        </div>
+        <div class="top-sales box">
+          <img class="student-image" src="image1.png" >
+          <div>
+            <div>Name</div>
+            <div>Program</div>
+            <div>Department</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="dashboard.js"></script>
+
+</body>
+</html>
+
+
